@@ -1,0 +1,13 @@
+{
+	"config": {
+		"theme": {
+			"currentTheme": "viewstestTheme",
+			"themes": [
+				"defaultTheme",
+				"viewstestTheme"
+			],
+			"baseTheme": "viewstestTheme"
+		},
+		"version": "6.10.2"
+	}
+}

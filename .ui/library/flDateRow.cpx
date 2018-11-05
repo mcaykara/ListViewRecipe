@@ -1,0 +1,113 @@
+{
+	"components": [
+		{
+			"className": ".flexLayout",
+			"id": "6f6d-25cc-0b00-b1ff",
+			"props": {
+				"children": [
+					"dc18-5d61-426d-3275"
+				],
+				"name": "flDateRow",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"flexProps": {},
+				"height": 52.63157894736842,
+				"left": 18.181817006256622,
+				"top": 407.20000186208955,
+				"width": 329.77800871196547
+			}
+		},
+		{
+			"className": ".flexLayout",
+			"id": "dc18-5d61-426d-3275",
+			"props": {
+				"children": [
+					"3168-dcb3-130c-33de",
+					"2f0f-49b6-4450-a3f7"
+				],
+				"id": 93,
+				"name": "flMain",
+				"parent": "6f6d-25cc-0b00-b1ff",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"backgroundColor": "rgba( 242, 242, 242, 1 )",
+				"borderRadius": 4,
+				"flexProps": {
+					"flexDirection": "ROW",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"height": null,
+				"id": 93,
+				"marginBottom": 2.5,
+				"marginTop": 2.5,
+				"paddingLeft": 10,
+				"paddingRight": 10,
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".label",
+			"id": "3168-dcb3-130c-33de",
+			"props": {
+				"children": [],
+				"id": 90,
+				"name": "lblHeader",
+				"parent": "dc18-5d61-426d-3275",
+				"text": "Morning",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"alignSelf": "AUTO"
+				},
+				"font": {
+					"size": 14
+				},
+				"height": null,
+				"id": 90,
+				"text": "Morning",
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".label",
+			"id": "2f0f-49b6-4450-a3f7",
+			"props": {
+				"children": [],
+				"id": 91,
+				"name": "lblTime",
+				"parent": "dc18-5d61-426d-3275",
+				"text": "08:00 - 12:00",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 14
+				},
+				"height": null,
+				"id": 91,
+				"marginLeft": 10,
+				"text": "08:00 - 12:00",
+				"textColor": "rgba( 128, 128, 128, 1 )",
+				"usePageVariable": true,
+				"width": 250
+			}
+		}
+	]
+}

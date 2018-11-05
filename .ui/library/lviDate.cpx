@@ -1,0 +1,143 @@
+{
+	"components": [
+		{
+			"className": ".listViewItem",
+			"id": "6555-3beb-4767-5440",
+			"props": {
+				"children": [
+					"d016-60a4-c254-5251",
+					"bc44-7d7a-bf01-6265",
+					"4fb6-e935-bdf6-dd34",
+					"6b7e-8cb1-cff6-597c"
+				],
+				"name": "lviDate",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"flexProps": {},
+				"height": 160.54163481059828,
+				"left": 18.8363650488475,
+				"top": 145.380123077877,
+				"width": 325.3684194464432
+			}
+		},
+		{
+			"className": ".label",
+			"id": "d016-60a4-c254-5251",
+			"props": {
+				"children": [],
+				"id": 103,
+				"name": "lblDate",
+				"parent": "6555-3beb-4767-5440",
+				"text": "8 August",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"height": 24,
+				"id": 103,
+				"text": "8 August",
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".flexLayout",
+			"hiddenComponent": false,
+			"id": "bc44-7d7a-bf01-6265",
+			"props": {
+				"children": [],
+				"id": 100,
+				"name": "flDateRow0",
+				"parent": "6555-3beb-4767-5440",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flAppointmentDateRow",
+				"id": "6f6d-25cc-0b00-b1ff"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"height": 49,
+				"id": 100,
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".flexLayout",
+			"hiddenComponent": false,
+			"id": "4fb6-e935-bdf6-dd34",
+			"props": {
+				"children": [],
+				"id": 101,
+				"name": "flDateRow1",
+				"parent": "6555-3beb-4767-5440",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flAppointmentDateRow",
+				"id": "6f6d-25cc-0b00-b1ff"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"height": 44,
+				"id": 101,
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".flexLayout",
+			"hiddenComponent": false,
+			"id": "6b7e-8cb1-cff6-597c",
+			"props": {
+				"children": [],
+				"id": 102,
+				"name": "flDateRow2",
+				"parent": "6555-3beb-4767-5440",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flAppointmentDateRow",
+				"id": "6f6d-25cc-0b00-b1ff"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"height": 44,
+				"id": 102,
+				"usePageVariable": true,
+				"width": null
+			}
+		}
+	]
+}
