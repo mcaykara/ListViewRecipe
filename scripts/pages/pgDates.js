@@ -103,6 +103,7 @@ function onShow(superOnShow) {
 function onLoad(superOnLoad) {
   superOnLoad();
   initListView(this.lvDates);
+  this.headerBar.leftItemEnabled = false;
 }
 
 function initListView(listView) {
